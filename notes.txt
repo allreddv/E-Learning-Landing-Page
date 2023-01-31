@@ -1,0 +1,21 @@
+
+
+First project with all three layouts for mobile, tablet, desktop
+
+New concepts learned:
+
+First time applying Picture functionality in HTML setting source sets for different pictures to load
+based on media query inside html.  Also added .webp and @2x versions.
+
+Investigated how these were loaded using the Network feature in Google Inspector
+
+Applied linear gradients via variables in css 
+
+Really had to learn more in depth about position relative/absolute due to the hero picture needing to cut
+out into the top of the page and over the header.  This also reinforced the concept of pulling the content
+out of line when using absolute because they image container no longer was barrier for margins on other elements.
+
+Had to apply z-axis to top button in order to have hover functionality becaue in tablet and desktop the hero image container was actually 
+over the button even though it was white space and the button was visible.
+
+Overall pretty happy with result, near pixel perfect on all three layouts.
